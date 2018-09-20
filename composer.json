@@ -1,0 +1,10 @@
+{
+    "description": "Access controller library for the Codeigniter.",
+    "name": "wardish/ci-access-controll",
+    "type": "library",
+    "license": "Aapache License 2.0",
+    "version":"0.1",
+    "autoload": {
+        "classmap": [ "application/libraries/" ]
+    }
+}
