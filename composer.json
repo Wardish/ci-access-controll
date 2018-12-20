@@ -3,7 +3,10 @@
     "name": "wardish/ci-access-controll",
     "type": "library",
     "license": "Aapache License 2.0",
-    "version":"0.1",
+    "version":"1.0",
+    "require": {
+        "php": ">=5.3.0"
+    },
     "autoload": {
         "classmap": [ "application/libraries/" ]
     }
