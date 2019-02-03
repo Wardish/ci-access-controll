@@ -31,9 +31,7 @@ class Installer
             } else {
                 $success = copy($file, $dst . '/' . $iterator->getSubPathName());
                 if ($success) {
-                    if (! $this->silent) {
-                        echo 'copied: ' . $dst . '/' . $iterator->getSubPathName() . PHP_EOL;
-                    }
+                    echo 'copied: ' . $dst . '/' . $iterator->getSubPathName() . PHP_EOL;
                 }
             }
         }
